@@ -1,0 +1,127 @@
+?php
+class stringhruza {
+    // substr - vypise nam kus retezce
+    static public function substrhruza($retz,$odkudseZac) {
+        return substr($retz, $odkudseZac);
+}
+// vlozi v retezci na prislusne misto string
+static public function substr__replacehruza($tx,$no,$now) {
+   return substr_replace($tx, $no, $now);
+}
+//nahradi  v retezci slovo
+static public function strtrhruza($veta,$coe,$www) {
+    return strtr($veta, $coe, $www);
+}
+//vsechny pismena v rezezci budou velka
+static public function strtoupperhruza($big) {
+    return strtoupper($big);
+}
+//vsechny budou malym pismenem
+static public function strtolowerhruza(small) {
+    return strtolower(small);
+}
+//v retezci najde pozadovany retez posledni moznost
+static public function strrposhruza($od,$co) {
+    return strrpos($od, $co);
+}
+//vyhleda presne zadany string v retezci
+static public function strriposhruza($od,$pluchodneH) {
+   return strripos($od, $pluchodneH); 
+}
+//najde v retezci prvni shodu toho co hledam
+static public function strposhruza($od,$co) {
+    return strpos($od, $co);
+}
+//vypise retezcovou delku
+static public function strlenhruza($legit) {
+    return strlen($legit);
+}
+//najdu co hledam
+static public function strchrhruza($od,$co) {
+    return strchr($od, $co);
+}
+// vyjme/nahradi promenne v poli
+static public function str_replace($jako,$nekde,$tam) {
+   return str_replace($jako, $nekde, $tady);
+}
+// zasifruje nam slovo
+static public function md5hruza($shh) {
+    return md5($shh);
+}
+//do pole nam neco vlozi
+static public function implodehruza($wh,$aimbot ){
+    return implode($wh, $aimbot);
+}
+//plucdeli to na substringy
+static public function explodehruza($run,$runw) {
+    return explode($run, $runw);
+}
+//prida slash pred ty charaktery
+static public function addcslasheshruza($plus,$pluc) {
+    return addcslashes($plus, $pluc);
+}
+//vlozi do vety backslash
+static public function addslashhruza($runw) {
+    return addslashes($runw);
+}
+// odebere nevhodne vety z retezce
+static public function trimhruza($rage,$stop) {
+    return trim($rage, $stop);
+}
+//prvni pismeno ve vete bude velke
+static public function ucfirsthruza($veta) {
+    return ucfirst($veta);
+}
+//vsechny slova budou napsana velkym pismenem
+static public function ucwordshruza($veta) {
+    return ucwords($veta);
+}
+
+}//definice new proměnných
+$retz = "aaaaaaaaha";
+$odkudseZac =98;
+$tx="nevim nic";
+$no="kde";
+$now= 56;
+$veta="tohle mam rad";
+$coe ="bmw";
+$www="audi";
+$vsechnoV="chuze je zdrava";
+small="ferrari";
+$od ="wv";
+$co= "proc";
+$pluchodneH="sadge";
+$legit= "bez emoci";
+$jako= array ('d','g','z','b','i,'q');
+$nekde="tady nee";
+$tady="dnes ano";
+$shh= "co";
+$wh=",";
+$aimbot= array ('audi','bmw','lancia','ford');
+$run = '""';
+$runw="dva jedna osm";
+$plus="zdravim vas";
+$pluc= 'A-z';
+$rage="\a\jsem nej\a\a";
+$stop="\a";
+
+//vypíše funkci pomoci var_dump nadefinovane ve tride
+var_dump(stringhruza::substrhruza($retez, $odkudseZ));
+var_dump(stringhruza::substr__replacehruza($tx, $no, $now));
+var_dump(stringhruza::strtrhruza($string, $coe, $www));
+var_dump(stringhruza::strtoupperhruza($big));
+var_dump(stringhruza::strtolowerhruza(small));
+var_dump(stringhruza::strrposhruza($od, $co));
+var_dump(stringhruza::strriposhruza($od, $pluchodneH));
+var_dump(stringhruza::strposhruza($od, $co));
+var_dump(stringhruza::strlenhruza($legit));
+var_dump(stringhruza::strchrhruza($od, $co));
+var_dump(stringhruza::str_replace($jako, $nekde, $tady));
+var_dump(stringhruza::md5hruza($shh));
+var_dump(stringhruza::implodehruza($wh, $aimbot));
+var_dump(stringhruza::explodehruza($run, $runw));
+var_dump(stringhruza::addcslasheshruza($plus, $pluc));
+var_dump(stringhruza::addslashhruza($runw));
+var_dump(stringhruza::trimhruza($rage, $stop));
+var_dump(stringhruza::ucfirsthruza($veta));
+var_dump(stringhruza::ucwordshruza($veta));
