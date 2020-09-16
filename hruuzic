@@ -78,31 +78,31 @@ static public function ucwordshruza($veta) {
 }
 
 }//definice new proměnných
-$retz = "aaaaaaaaha";
-$odkudseZac =98;
-$tx="nevim nic";
+$retz = "aha";
+$odkudseZac =80;
+$tx="nic";
 $no="kde";
-$now= 56;
-$veta="tohle mam rad";
-$coe ="bmw";
+$now= 90;
+$veta="tohle";
+$coe ="felicie";
 $www="audi";
-$vsechnoV="chuze je zdrava";
-small="ferrari";
+$vsechnoV="cigarety skodi";
+small="bmw";
 $od ="wv";
-$co= "proc";
+$co= "jo";
 $pluchodneH="sadge";
-$legit= "bez emoci";
+$legit= "ahoj";
 $jako= array ('d','g','z','b','i,'q');
-$nekde="tady nee";
-$tady="dnes ano";
+$nekde="ne";
+$tady="ano";
 $shh= "co";
 $wh=",";
-$aimbot= array ('audi','bmw','lancia','ford');
+$aimbot= array ('audi','bmw','skoda','ford');
 $run = '""';
-$runw="dva jedna osm";
+$runw="blik";
 $plus="zdravim vas";
 $pluc= 'A-z';
-$rage="\a\jsem nej\a\a";
+$rage="\a\jsem dobrej\a\a";
 $stop="\a";
 
 //vypíše funkci pomoci var_dump nadefinovane ve tride
