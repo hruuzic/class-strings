@@ -125,3 +125,4 @@ var_dump(stringhruza::addslashhruza($runw));
 var_dump(stringhruza::trimhruza($rage, $stop));
 var_dump(stringhruza::ucfirsthruza($veta));
 var_dump(stringhruza::ucwordshruza($veta));
+<?
